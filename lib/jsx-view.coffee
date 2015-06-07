@@ -4,10 +4,10 @@ module.exports =
 class JsxView extends View
   @content: ->
     @div class: 'jsx overlay from-top', =>
-      @div "The Jsx package is Alive! It's ALIVE!", class: "message"
+      @div 'The JSX package is Alive! It\'s ALIVE!', class: 'message'
 
   initialize: (serializeState) ->
-    atom.workspaceView.command "jsx:run", => @run()
+    atom.commands.add 'atom-workspace', 'jsx:run': => @run()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
@@ -17,7 +17,7 @@ class JsxView extends View
     @detach()
 
   run: ->
-    console.log "JSX run called!!"
+    console.log 'JSX run called!!'
     if @hasParent()
       @detach()
     else
