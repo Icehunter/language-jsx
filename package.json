@@ -1,32 +1,32 @@
 {
-	"name": "language-jsx",
-	"version": "0.0.0",
-	"description": "",
-	"main": "lib/jsx",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Icehunter/language-jsx.git"
-	},
-	"author": "Ryan Wilson <syndicated.life@gmail.com> (http://syndicatedlife.com/)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/Icehunter/language-jsx/issues"
-	},
-	"homepage": "https://github.com/Icehunter/language-jsx",
-	"dependencies": {
-		"jsx": "^0.9.89"
-	},
-	"engines": {
-		"atom": "*",
-		"node": "*"
-	},
-	"activationCommands": {
-		"atom-workspace": [
-			"jsx:run"
-		]
-	},
-	"devDependencies": {}
+  "name": "language-jsx",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Icehunter/language-jsx.git"
+  },
+  "author": "Ryan Wilson <syndicated.life@gmail.com> (http://syndicatedlife.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Icehunter/language-jsx/issues"
+  },
+  "homepage": "https://github.com/Icehunter/language-jsx",
+  "dependencies": {
+    "jsx": "^0.9.89"
+  },
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "jsx:run"
+    ]
+  },
+  "devDependencies": {}
 }
