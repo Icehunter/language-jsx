@@ -1,24 +1,24 @@
 {
-  "name": "language-jsx",
-  "version": "0.1.4",
-  "main": "./lib/jsx",
-  "description": "JSX language support in Atom",
-  "engines": {
-    "atom": "*",
-    "node": "*"
-  },
-  "activationEvents": [
-    "jsx:run"
-  ],
-  "dependencies": {
-    "jsx": "*"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yosuke-furukawa/language-jsx.git"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yosuke-furukawa/language-jsx/issues"
-  }
+	"name": "language-jsx",
+	"version": "0.1.5",
+	"main": "./lib/jsx",
+	"description": "JSX language support in Atom",
+	"engines": {
+		"atom": "*",
+		"node": "*"
+	},
+	"activationCommands": {
+		"atom-text-editor": ["jsx:run"]
+	},
+	"dependencies": {
+		"jsx": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/icehunter/language-jsx.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/icehunter/language-jsx/issues"
+	}
 }
