@@ -290,7 +290,7 @@
     'name': 'storage.modifier.jsx'
   }
   {
-    'match': '(?<!\\.)\\b(break|case|catch|continue|default|do|else|finally|for|goto|if|import|package|return|switch|throw|try|while)\\b'
+    'match': '(?<!\\.)\\b(break|case|catch|continue|default|do|else|finally|for|goto|if|import|package|return|switch|throw|try|while|from)\\b'
     'name': 'keyword.control.jsx'
   }
   {
